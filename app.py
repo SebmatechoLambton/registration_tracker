@@ -70,4 +70,5 @@ def main():
     filtered_df = dataframe_courses[dataframe_courses['full_sec_name'].str.contains(filter_text, case=False, na=False)]
     st.dataframe(filtered_df)
 if __name__ == "__main__":
-    main()
+    print('this is a test')
+    # main()
