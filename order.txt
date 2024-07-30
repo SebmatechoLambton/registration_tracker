@@ -1,0 +1,7 @@
+status	order
+T_paid	1
+T_no_paid	2
+F	3
+O	4
+P	5
+C	6
