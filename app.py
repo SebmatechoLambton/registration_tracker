@@ -70,5 +70,8 @@ def main():
     filtered_df = dataframe_courses[dataframe_courses['full_sec_name'].str.contains(filter_text, case=False, na=False)]
     st.dataframe(filtered_df)
 if __name__ == "__main__":
-    print('this is a test')
+    # Embedding the image at the top right corner
+    image = 'img/lambton.jpg'  # Replace with the actual path to your image
+    st.image(image, use_column_width=False, width=100, clamp=True)
+    st.title('this is a test')
     # main()
